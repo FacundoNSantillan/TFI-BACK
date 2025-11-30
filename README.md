@@ -62,8 +62,9 @@ npm install      # o yarn install
 
 📄 Variables de entorno (.env)
 
-Crear un archivo .env en la raíz del proyecto con esta estructura:
+Crear un archivo **.env** en la raíz del proyecto con la siguiente estructura:
 
+```env
 # 🔥 Servidor
 PORT=
 
@@ -74,11 +75,12 @@ DB_NAME=
 DB_USER=
 DB_PASSWORD=
 
-# 🔐 Autenticación / Tokens
+# 🔑 Autenticación / Tokens
 TOKEN_SECRET=
 
-# 🏷 Entorno
+# 🌎 Entorno
 NODE_ENV=development
+```
 
 ⚠️ Importante: completar con sus propios valores antes de ejecutar
 
